@@ -1,0 +1,163 @@
+html,body{
+    font-family: 'Roboto Slab', serif;
+    background: 
+        linear-gradient(to bottom right, #D9ECFF, transparent),
+        linear-gradient(to top left, #007EFF, transparent);
+    background-blend-mode: screen;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    
+}
+a{
+    cursor: pointer;
+}
+
+/*icons on landing page*/
+#icons{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left:45%;
+}
+.iconImg{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 33%;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.iconImg:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/*Dot background*/
+.canvas {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 15%;
+  }
+
+/*Content containers. We use two for animation*/
+.outerShell{
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 0%;
+    height: 100%;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.content{
+    position: relative;
+    width: 0%;
+    height: 100%;
+    margin-left: 50%;
+    margin-right: 50%;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    overflow: hidden;
+}
+.closeMenuButton{
+    position: relative;
+    font-size: 42px;
+    margin-left: 20px;
+}
+
+/*Portfoliodiv*/
+#photoHolder{
+    width:90%;
+    margin: auto;
+}
+.thumbnail{
+    width:32%;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.thumbnail:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+h1{
+    margin-left: 4%;
+}
+button{
+    width: 30%;
+    padding: 16px 32px;
+    border-radius: 5%;
+    background-color: #007EFF;
+    color: white;
+    border: none;
+}
+textarea {
+    width: 98%;
+    height: 60%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #007EFF;
+    border-radius: 4px;
+    background-color: #D9ECFF;
+    resize: none;
+  }
+  
+  .info {
+    border: 2px solid #007EFF;
+    border-radius: 4px;
+    background-color: #D9ECFF;
+  }
+  form{
+      margin-left: 2%;
+  }
+
+  h3{
+      margin-left: 4%;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #16A1DC;
+    border-radius: 10px;
+  }
+  
+  @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .slides{
+        width: 100%;
+    }
+    #title{
+        position: absolute;
+        padding-top: none;
+        margin-top: 50px;
+        left: 5%;
+    }
+    h1,h3,.dot{
+        letter-spacing: 2px;
+        
+    }
+    
+ }
+

@@ -67,7 +67,7 @@ a{
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    overflow: hidden;
+    overflow: auto;
 }
 .closeMenuButton{
     position: relative;

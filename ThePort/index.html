@@ -73,21 +73,3 @@
     <script src="scripts/dots.js"></script>
     <script src="scripts/contentAnimation.js"></script>
 </html>
-<?php
-$thankYou = "";
-     
-if(@$_POST["submit"]) {
-    $recipient="dristantonnally@gmail.com";
-    $subject="Form to email message";
-    $sender=$_POST["senderPhonenumber"];
-    $senderEmail=$_POST["senderEmail"];
-    $message=$_POST["message"];
-
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
-
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
-}
-
-?>

@@ -145,18 +145,11 @@ textarea {
   }
   
   @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-    .slides{
-        width: 100%;
-    }
-    #title{
+    #icons{
         position: absolute;
-        padding-top: none;
-        margin-top: 50px;
-        left: 5%;
-    }
-    h1,h3,.dot{
-        letter-spacing: 2px;
-        
+        width: 30%;
+        height: 100%;
+        left: 35%;
     }
     
  }

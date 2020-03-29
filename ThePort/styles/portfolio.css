@@ -146,7 +146,7 @@ textarea {
   
   @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
     html,body{
-        background: #D9ECFF;
+        background: rgb(156, 204, 253);
     }
     #icons{
         position: absolute;

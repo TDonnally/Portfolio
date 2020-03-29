@@ -1,6 +1,12 @@
 html,body{
     font-family: 'Roboto Slab', serif;
     background: 
+        -webkit-gradient(linear, left top, right bottom, from(#D9ECFF), to(transparent)),
+        -webkit-gradient(linear, right bottom, left top, from(#007EFF), to(transparent));
+    background: 
+        -o-linear-gradient(top left, #D9ECFF, transparent),
+        -o-linear-gradient(bottom right, #007EFF, transparent);
+    background: 
         linear-gradient(to bottom right, #D9ECFF, transparent),
         linear-gradient(to top left, #007EFF, transparent);
     background-blend-mode: screen;
